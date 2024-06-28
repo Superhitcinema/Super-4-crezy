@@ -14,7 +14,7 @@ import asyncio
 import time
 import datetime
 from Script import script
-from .pmfilter import auto_filter
+from .pm_filter import auto_filter
 from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
 from pyrogram.types import *
