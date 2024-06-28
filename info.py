@@ -91,6 +91,9 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
+CAPTION_LANGUAGES = ["Bhojpuri", "Bangla", "Bengali", "Tamil", "English", "Hindi", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
+
+
 # Shortlink Info
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '17c0e3f3af734e10a79acb5e67b72854a902240a')
