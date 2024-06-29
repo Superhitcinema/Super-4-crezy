@@ -13,7 +13,7 @@ from database.users_chats_db import add_name
 from .Imdbposter import get_movie_details, fetch_image
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-channel = -1002230888535
+channel = -1002090559987
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -94,7 +94,7 @@ async def send_msg(bot, filename, caption):
           btn = [[
                  InlineKeyboardButton('🌲 Get files 🌲', url=f"https://telegram.me/{temp.U_NAME}?start=getfile-{filenames}")
                 ],[
-                    InlineKeyboardButton(' ‼️ How to download ‼️', callback_data="premium_info")]]
+                    InlineKeyboardButton(' ‼️ How to download ‼️', url=f"https://t.me/+d0lcBktNrZY0NDhl")]]
                 
           if resized_poster:
               await bot.send_photo(chat_id=channel, photo=resized_poster, caption=text, reply_markup=InlineKeyboardMarkup(btn))
