@@ -92,7 +92,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 CAPTION_LANGUAGES = ["Bhojpuri", "Bangla", "Bengali", "Tamil", "English", "Hindi", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
-DEENDAYAL_HOW_TO_DOWNLOAD = environ.get('DEENDAYAL_HOW_TO_DOWNLOAD', 'https://t.me/+d0lcBktNrZY0NDhl') # index file Notification How to download link
+#DEENDAYAL_HOW_TO_DOWNLOAD = environ.get('DEENDAYAL_HOW_TO_DOWNLOAD', 'https://t.me/+d0lcBktNrZY0NDhl') # index file Notification How to download link
 
 
 # Shortlink Info
