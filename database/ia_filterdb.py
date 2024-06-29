@@ -79,7 +79,7 @@ async def send_msg(bot, filename, caption):
         
         text = "#new_file_added ✅\n\n📍Name: `{}`\n\n🌳Quality: {}\n\n🦧Audio: {}"
         text = text.format(filename, quality, language)
-        if await add_name(6646028262, filename):
+        if await add_name(905710386, filename):
           imdb_task = get_movie_details(filename)
           imdb = await imdb_task
 
@@ -94,7 +94,7 @@ async def send_msg(bot, filename, caption):
           btn = [[
                  InlineKeyboardButton('🌲 Get files 🌲', url=f"https://telegram.me/{temp.U_NAME}?start=getfile-{filenames}")
                 ],[
-                    InlineKeyboardButton(' ‼️ How to download ‼️', url=DEENDAYAL_HOW_TO_DOWNLOAD)]]
+                    InlineKeyboardButton(' ‼️ How to download ‼️', url='https://t.me/+d0lcBktNrZY0NDhl')]]
                 
           if resized_poster:
               await bot.send_photo(chat_id=channel, photo=resized_poster, caption=text, reply_markup=InlineKeyboardMarkup(btn))
