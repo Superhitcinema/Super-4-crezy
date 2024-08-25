@@ -96,8 +96,8 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Bangla", "Bengali", "Tamil", "English", "Hindi
 
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '17c0e3f3af734e10a79acb5e67b72854a902240a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'upshrink.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'eb7e77c02798f97bde48087bf0d76e5f3bb6ec7d')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
